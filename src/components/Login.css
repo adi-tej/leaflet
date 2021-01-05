@@ -1,0 +1,47 @@
+.loginContainer{
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.loginSegment.ui.segment{
+    width: 50%;
+    padding: 0;
+    border-radius: 40px;
+}
+.loginSegment .top{
+    background: black;
+    color: white;
+    border-radius: 30px 30px 0 0;
+    padding: 15px 0 60px 0;
+}
+.loginSegment .top .text{
+    font-size: 35px;
+    font-weight: bold;
+}
+.loginSegment .bottom{
+    border-radius: 30px 30px 0 0;
+    padding: 50px 80px 80px 80px;
+}
+.loginSegment .bottom .ui.form .field .ui.input{
+    height: 50px;
+}
+.loginSegment .bottom .ui.form .field label{
+    color: #4397bc;
+}
+.loginSegment .bottom .ui.form .field .ui.input input{
+    border-radius: 8px;
+}
+.formButton.ui.yellow.button{
+    color: black;
+    font-size: 25px;
+    padding: 15px 45px 15px 45px;
+    border-radius: 50px;
+    border: solid 2px black;
+    position: absolute;
+    margin-bottom: 6%;
+}
+.formButton.ui.yellow.button:hover {
+    color: black;
+}

@@ -1,0 +1,31 @@
+.homeContainer{
+    background-color: #e4e4e4;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.sidemenu.ui.sidebar.secondary.menu{
+    background-color: grey;
+    color: white;
+}
+
+.sidemenu.ui.sidebar.secondary.menu .item{
+    color: white;
+}
+.sidemenu.ui.sidebar.secondary.menu .item.active{
+    color: #a1e4c0;
+}
+
+.startImage{
+    width: 160px;
+    position: absolute;
+    margin-top: 35em;
+}
+.startImage.startHover{
+    opacity: 0;
+}
+.startImage.startHover:hover{
+    opacity: 100;
+}
